@@ -1,0 +1,26 @@
+﻿Build started 7/22/2020 12:52:18 PM.
+     1>Project "C:\Users\ss\Documents\Visual Studio 2013\Projects\Sfml tutorial\Sfml tutorial\Sfml tutorial.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(388,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Train Proj.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         E:\Visual studio\VC\bin\CL.exe /c /I"C:\Users\ss\Documents\Visual Studio 2013\Projects\Sfml tutorial\Sfml\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "..\..\..\..\..\Desktop\desktop\Fast Second semester 2020\Object Oriented Programming\19L-2343 OOP Project\Train.cpp"
+         Train.cpp
+     1>c:\users\ss\desktop\desktop\fast second semester 2020\object oriented programming\19l-2343 oop project\train.cpp(41): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\ss\desktop\desktop\fast second semester 2020\object oriented programming\19l-2343 oop project\train.cpp(149): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ss\desktop\desktop\fast second semester 2020\object oriented programming\19l-2343 oop project\train.cpp(233): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ss\desktop\desktop\fast second semester 2020\object oriented programming\19l-2343 oop project\train.cpp(242): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ss\desktop\desktop\fast second semester 2020\object oriented programming\19l-2343 oop project\train.cpp(251): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ss\desktop\desktop\fast second semester 2020\object oriented programming\19l-2343 oop project\train.cpp(329): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ss\desktop\desktop\fast second semester 2020\object oriented programming\19l-2343 oop project\train.cpp(893): warning C4244: 'argument' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\ss\desktop\desktop\fast second semester 2020\object oriented programming\19l-2343 oop project\train.cpp(1047): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\ss\desktop\desktop\fast second semester 2020\object oriented programming\19l-2343 oop project\train.cpp(595): warning C4715: 'train::SearchBogie' : not all control paths return a value
+     1>c:\users\ss\desktop\desktop\fast second semester 2020\object oriented programming\19l-2343 oop project\train.cpp(763): warning C4715: 'train::Boogie_Status' : not all control paths return a value
+     1>c:\users\ss\desktop\desktop\fast second semester 2020\object oriented programming\19l-2343 oop project\train.cpp(696): warning C4715: 'train::Reserve_Bogie' : not all control paths return a value
+     1>c:\users\ss\desktop\desktop\fast second semester 2020\object oriented programming\19l-2343 oop project\train.cpp(735): warning C4715: 'train::Print_BogieInfo' : not all control paths return a value
+       Link:
+         E:\Visual studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\ss\Documents\Visual Studio 2013\Projects\Sfml tutorial\Debug\Sfml tutorial.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\ss\Documents\Visual Studio 2013\Projects\Sfml tutorial\Sfml\lib" "sfml-system-d.lib" "sfml-graphics-d.lib" "sfml-audio-d.lib" "sfml-network-d.lib" "sfml-window-d.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\ss\Documents\Visual Studio 2013\Projects\Sfml tutorial\Debug\Sfml tutorial.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\ss\Documents\Visual Studio 2013\Projects\Sfml tutorial\Debug\Sfml tutorial.lib" /MACHINE:X86 Debug\Train.obj
+         Sfml tutorial.vcxproj -> C:\Users\ss\Documents\Visual Studio 2013\Projects\Sfml tutorial\Debug\Sfml tutorial.exe
+     1>Done Building Project "C:\Users\ss\Documents\Visual Studio 2013\Projects\Sfml tutorial\Sfml tutorial\Sfml tutorial.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.28
